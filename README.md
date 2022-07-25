@@ -3,7 +3,7 @@
 <b>Member : 👨‍💻성우, 👨‍💻민우, 👩‍💻슬기, 👩‍💻정언, 👩‍💻희진</b><br/><br/>
 Git 관리는 <a href="https://github.com/mccreate"><b>👨‍💻민우</b></a>가 할게요.
 
-<br/><br/><br/>
+<br/><br/>
 
 # 📃 Git 폴더 규칙
 문서는 항상 다음과 같이 관리합시다. <br>
@@ -17,8 +17,8 @@ Folder Name : [👨각자 이름] - [📁src] - [📁com.baekjoon.문제주제] 
 ```
 <b>3. 항상 src 폴더만 Git에 업로드합시다.</b> ex) git add src로 해주세요 😊<br>
 ⚠️ <b>[📁bin]</b> 업로드 금지! <br><br>
-~~git pull 안하신거 티나요..~~
-
+~~git pull 안하신거 티나요..~~ <br>
+4. <b>branch는 그대로 `master`에서 진행합니다.</b>
 # 🛫 Git 사용법 간단정리
 
 ⚡ <b>본인 내용</b>만 수정하셔야 합니다!! (충돌나요..)⚡<br />
