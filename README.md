@@ -6,11 +6,14 @@ Git 관리는 <a href="https://github.com/mccreate"><b>👨‍💻민우</b></a>
 <br/><br/>
 
 # 📆 일정표 공유
-[] 1주차 - 완전탐색
-[] 2주차 - 완전탐색
-[] 3주차 - 백트래킹
-[] 4주차 - 백트래킹
-[] 5주차 - Git 정리 및 📃보고서 
+- [ ] 1주차 - 완전탐색<br>
+- [ ] 2주차 - 완전탐색<br>
+- [ ] 3주차 - 백트래킹<br>
+- [ ] 4주차 - 백트래킹<br>
+- [ ] 5주차 - Git 정리 및 📃보고서 작성<br> 
+
+<b>완전탐색 :</b> <b><a href="https://www.acmicpc.net/step/22">`백준`</a></b>, <b><a href="https://school.programmers.co.kr/learn/courses/30/parts/12230">`프로그래머스`</a></b> <br>
+<b>백트래킹 :</b> <b><a href="https://www.acmicpc.net/step/34">`백준`</a></b>, <b><a href="https://school.programmers.co.kr/learn/courses/30/parts/12230">`프로그래머스`</a></b>는 동일
 
 # 📃 Git 폴더 규칙
 문서는 항상 다음과 같이 관리합시다. <br>
