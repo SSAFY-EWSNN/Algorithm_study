@@ -18,7 +18,7 @@ Folder Name : [👨각자 이름] - [📁src] - [📁com.baekjoon.문제주제] 
 <b>3. 항상 src 폴더만 Git에 업로드합시다.</b> ex) git add src로 해주세요 😊<br>
 ⚠️ <b>[📁bin]</b> 업로드 금지! <br><br>
 ~~git pull 안하신거 티나요..~~ <br>
-4. <b>branch는 그대로 `master`에서 진행합니다.</b>
+4. <b>branch는 그대로 `master`에서 진행합니다.</b><br>
 # 🛫 Git 사용법 간단정리
 
 ⚡ <b>본인 내용</b>만 수정하셔야 합니다!! (충돌나요..)⚡<br />
