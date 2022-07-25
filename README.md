@@ -5,8 +5,21 @@ Git 관리는 <a href="https://github.com/mccreate"><b>👨‍💻민우</b></a>
 
 <br/><br/><br/>
 
+# 📃 Git 폴더 규칙
+문서는 항상 다음과 같이 관리합시다. <br>
+<b>1. Workspace는 자유롭게 설정하되, Git에는 `각자 이름` 폴더로 묶어서 올립시다.</b> <br><br>
+<b>2. 📁패키지명은 아래와 같이 통일합시다.</b><br>
+백준 : `com.baekjoon.주제`<br>
+프로그래머스 : `com.programmers.주제`
+```
+Workspace : C:\Algorithm_study
+Folder Name : [👨각자 이름] - [📁src] - [📁com.baekjoon.문제주제] - [📃Baekjoon_1234.java]...
+```
+<b>3. 항상 src 폴더만 Git에 업로드합시다.</b> ex) git add src로 해주세요 😊<br>
+⚠️ <b>[📁bin]</b> 업로드 금지! <br><br>
+~~git pull 안하신거 티나요..~~
 
-# Git 사용법 간단정리🛫
+# 🛫 Git 사용법 간단정리
 
 ⚡ <b>본인 내용</b>만 수정하셔야 합니다!! (충돌나요..)⚡<br />
 <h5>✔1. Git 원격지 주소 추가 (한번만 진행해주세요.)</h5>
