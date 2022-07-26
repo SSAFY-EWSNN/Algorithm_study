@@ -30,7 +30,6 @@ public class Main {
 		
 		for(int i = 0; i < T-1; i++) {
 			for(int j = i+1; j < T; j++) {
-				System.out.printf("i: %d vs j: %d\n", i, j);
 				if(whos[i].height > whos[j].height && whos[i].weight > whos[j].weight) {
 					whos[j].pos++;
 				} else if(whos[i].height < whos[j].height && whos[i].weight < whos[j].weight) {
