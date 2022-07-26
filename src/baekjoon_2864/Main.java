@@ -1,4 +1,4 @@
-package baekjoon_2864;
+package Baekjoon_2864;
 
 import java.util.Scanner;
 
@@ -18,5 +18,7 @@ public class Main {
 		M_max = Integer.parseInt(M.replaceAll("5", "6"));
 		
 		System.out.printf("%d %d\n", N_min+M_min, N_max+M_max);
+		
+		sc.close();
 	}
 }
