@@ -119,4 +119,5 @@ git push -u origin master
 
 # 이거 웨 않돼요?🤔 (FAQ)
 
-는 곧 추가할게요. 😊
+1. Github Token 문제
+- 해결법 찾아보고 올리겠습니다. 😥
