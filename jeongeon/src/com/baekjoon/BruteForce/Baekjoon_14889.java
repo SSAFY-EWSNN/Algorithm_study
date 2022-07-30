@@ -13,7 +13,5 @@ public class Baekjoon_14889 {
 				map[i][j] = sc.nextInt();
 			}
 		}
-		
-		
 	}
 }
