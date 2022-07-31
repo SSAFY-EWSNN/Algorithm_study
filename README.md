@@ -1,8 +1,8 @@
 # 🏝️ 싸피에서 살아남기(알고리즘 편)
 
 <b>Member : 👨‍💻성우, 👨‍💻민우, 👩‍💻슬기, 👩‍💻정언, 👩‍💻희진</b><br/><br/>
-Git 관리는 <a href="https://github.com/mccreate"><b>👨‍💻민우</b></a>가 할게요.
-
+Git 관리는 <a href="https://github.com/mccreate"><b>👨‍💻민우</b></a>가 할게요.<br/>
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FSSAFY-EWSNN&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 <br/><br/>
 
 # 📆 일정표 공유
@@ -119,4 +119,5 @@ git push -u origin master
 
 # 이거 웨 않돼요?🤔 (FAQ)
 
-는 곧 추가할게요. 😊
+1. Github Token 문제
+- 해결법 찾아보고 올리겠습니다. 😥
