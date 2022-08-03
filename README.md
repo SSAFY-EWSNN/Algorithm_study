@@ -6,7 +6,9 @@ Git 관리는 <a href="https://github.com/mccreate"><b>👨‍💻민우</b></a>
 <br/><br/>
 
 # 📆 일정표 공유
-- [ ] 1주차 - 완전탐색<br>
+- [x] 1주차 - 완전탐색<br>
+- Programmers 고득점 Kit - 최소 직사각형 (86491) <br>
+- SWEA - 조교의 성적 매기기 (1983) <br><br>
 - [ ] 2주차 - 완전탐색<br>
 - [ ] 3주차 - 백트래킹<br>
 - [ ] 4주차 - 백트래킹<br>
@@ -121,3 +123,4 @@ git push -u origin master
 
 1. Github Token 문제
 - 해결법 찾아보고 올리겠습니다. 😥
+2. 사고치면 알려주세여... 🥶
