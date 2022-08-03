@@ -12,7 +12,7 @@ public class Baekjoon_3085 {
 		/**
 		 * 0. 입력파일 읽어들이기
 		 */
-		System.setIn(new FileInputStream("input.txt"));
+		System.setIn(new FileInputStream("jeongeon/input.txt"));
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 
 		// 결과를 한 번에 출력하기 위한 StringBuilder
