@@ -1,11 +1,9 @@
 package swkoo.Baekjoon.src;
 
 import java.io.BufferedReader;
-import java.io.FileInputStream;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-import javax.xml.stream.events.StartDocument;
 
 public class B15650 {
 	// N과 M(2) : 조합
