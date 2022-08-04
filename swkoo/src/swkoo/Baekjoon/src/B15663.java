@@ -4,11 +4,10 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.LinkedHashSet;
-import java.util.Set;
 import java.util.StringTokenizer;
 
 public class B15663 {
-	// N과 M(9) 순열 - input data
+	// N과 M(9) 순열 (중복출력제거) - input data
 	static int N, M;
 	static int[] inputArray;
 	static int[] numbers;
