@@ -7,7 +7,7 @@ import java.util.LinkedHashSet;
 import java.util.StringTokenizer;
 
 public class B15666 {
-	// N과 M(10) 조합 (중복출력제거) - input data
+	// N과 M(12) 중복조합 (중복출력제거) - input data
 	static int N, M;
 	static int[] inputArray;
 	static int[] numbers;
