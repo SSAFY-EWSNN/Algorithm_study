@@ -30,13 +30,13 @@ public class Baekjoon_9663 {
 		
 		for (int i = 0; i < N; i++) {
 			arr[depth] = i;
-			if(Possibility(depth)) {
+			if(possibility(depth)) {
 				nQueen(depth+1);
 			}
 		}
 	}
 	
-	public static boolean Possibility(int col) {
+	public static boolean possibility(int col) {
 		for(int i=0; i<col; i++) {
 			if(arr[col] == arr[i]) {
 				return false;
