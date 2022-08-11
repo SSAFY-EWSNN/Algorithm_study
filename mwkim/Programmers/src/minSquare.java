@@ -1,3 +1,5 @@
+package Programmers.src;
+
 class Solution {
     public static int solution(int[][] sizes) {
         int answer = 0;
