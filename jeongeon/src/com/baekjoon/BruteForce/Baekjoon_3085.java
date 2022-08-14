@@ -4,48 +4,32 @@ import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
-
-<<<<<<< HEAD
-public class Baekjoon_3085{
-=======
 public class Baekjoon_3085 {
->>>>>>> 463e3f6ed935b6dc19f36061033fb8c9b6c4e42e
-
 	public static void main(String[] args) throws Exception {
 
 		/**
 		 * 0. 입력파일 읽어들이기
 		 */
-<<<<<<< HEAD
 		//System.setIn(new FileInputStream("input.txt"));
-=======
 		System.setIn(new FileInputStream("jeongeon/input.txt"));
->>>>>>> 463e3f6ed935b6dc19f36061033fb8c9b6c4e42e
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 
 		// 결과를 한 번에 출력하기 위한 StringBuilder
 		//StringBuilder sb = new StringBuilder();
-<<<<<<< HEAD
-		
 		// StringTokenize 객체 선언
 		// StringTokenizer st = null;
 		
 		int n = Integer.parseInt(in.readLine());
-		
-=======
 
 		// StringTokenize 객체 선언
 		// StringTokenizer st = null;
 
 		int n = Integer.parseInt(in.readLine());
-
->>>>>>> 463e3f6ed935b6dc19f36061033fb8c9b6c4e42e
 		//candy 배열 받기
 		String[][] candy = new String[n][n];
 		for(int i=0; i<n; i++) {
 			String[] a = in.readLine().split("");
 			for(int j=0; j<a.length; j++) {
-<<<<<<< HEAD
 				candy[i][j] = a[j];	
 			}
 		}
