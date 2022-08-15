@@ -1,3 +1,5 @@
+package swkoo.SWEA.src.D2.d1959;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
