@@ -1,4 +1,4 @@
-package swkoo.Baekjoon.src.swkoo.Baekjoon.src;
+package Baekjoon.src;
 
 import java.io.BufferedReader;
 import java.io.IOException;
