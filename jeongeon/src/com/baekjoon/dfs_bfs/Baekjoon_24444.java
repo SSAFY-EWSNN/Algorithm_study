@@ -5,13 +5,15 @@ import java.io.FileInputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.LinkedList;
+import java.util.Queue;
 
-// 알고리즘 수업 - 깊이 우선 탐색
-public class Baekjoon_24479 {
+//알고리즘 수업 - 너비 우선 탐색
+public class Baekjoon_24444 {
 	static int N, M, R, cnt;
 	static int visited[];
 	static ArrayList<ArrayList<Integer>> graph = new ArrayList<>();
-	
+	static Queue<Integer> q = new LinkedList<>();
 	public static void main(String[] args) throws Exception {
 		System.setIn(new FileInputStream("input.txt"));
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -39,23 +41,25 @@ public class Baekjoon_24479 {
 		}
 
 		cnt=1;
-		dfs(R);
+		bfs(R);
 		
 		for(int i=1; i<visited.length; i++) {
 			System.out.println(visited[i]);
 		}
 	}
 	
-	static void dfs(int start) {
-		visited[start] = cnt;
-		for(int i=0; i<graph.get(start).size(); i++) {
-			int x = graph.get(start).get(i);
-			if(visited[x] == 0) {
-				cnt++;
-				dfs(x);
+	static void bfs(int start) {
+		q.offer(start);
+		visited[start] = cnt++;
+		
+		while(!q.isEmpty()) {
+			int x = q.poll();
+			for(int i=0; i<graph.get(x).size(); i++) {
+				int y = graph.get(x).get(i);
+				if(visited[y] != 0) continue;
+				 q.offer(y);
+	             visited[y] = cnt++;
 			}
 		}
 	}
 }
-//반례
-//1 0 0 2 4 3
