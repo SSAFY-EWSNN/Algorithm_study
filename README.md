@@ -58,12 +58,18 @@ Git 관리는 <a href="https://github.com/mccreate"><b>👨‍💻민우</b></a>
 # 📃 Git 폴더 규칙
 문서는 항상 다음과 같이 관리합시다. <br>
 <b>1. Workspace는 자유롭게 설정하되, Git에는 `각자 이름` 폴더로 묶어서 올립시다.</b> <br><br>
-<b>2. 📁패키지명은 아래와 같이 통일합시다.</b><br>
-백준 : `com.baekjoon.주제`<br>
-프로그래머스 : `com.programmers.주제`
+~~<b>2. 📁패키지명은 아래와 같이 통일합시다.</b><br>~~
+~~백준 : `com.baekjoon.주제`<br>~~
+~~프로그래머스 : `com.programmers.주제`~~ <br><br>
+<b>2. 📁패키지명은 자유자제로 합시다. </b><br>
 ```
 Workspace : C:\Algorithm_study
 Folder Name : [👨각자 이름] - [📁src] - [📁com.baekjoon.문제주제] - [📃Baekjoon_1234.java]...
+
+↓ 자유 패키지로 변경.
+
+Workspace : C:\Algorithm_study
+Folder Name : [👨각자 이름] - [📁자유 패키지] - [📃Main.java]...
 ```
 <b>3. 항상 src 폴더만 Git에 업로드합시다.</b> ex) git add src로 해주세요 😊<br>
 ⚠️ <b>[📁bin]</b> 업로드 금지!     
@@ -161,4 +167,11 @@ git push -u origin master
 
 1. Github Token 문제
 - 해결법 찾아보고 올리겠습니다. 😥
-2. 사고치면 알려주세여... 🥶
+
+2. git add *(혹은 or)를 해도 스테이징이 안 되는 경우.<br>
+→ git add -A 입력해주세요.
+```
+git add -A
+```
+
+3. 사고치면 알려주세여... 🥶
