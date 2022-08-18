@@ -1,4 +1,4 @@
-package swkoo.SWEA.src.D1.d1936;
+package SWEA.src.D1.d1936;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

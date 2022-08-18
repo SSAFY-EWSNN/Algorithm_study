@@ -1,4 +1,4 @@
-package exhaustive_search;
+package Programmers.src.exhaustive_search;
 
 class P42840 {
 	// https://school.programmers.co.kr/learn/courses/30/lessons/42480

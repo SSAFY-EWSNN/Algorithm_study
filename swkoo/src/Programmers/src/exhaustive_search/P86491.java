@@ -1,9 +1,8 @@
-package exhaustive_search;
+package Programmers.src.exhaustive_search;
 
 public class P86491 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int[][] sizes = {{60, 50}, {30, 70}, {60, 30}, {80, 40}};
 		System.out.println(solution(sizes));
 		

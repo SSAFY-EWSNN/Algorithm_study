@@ -1,4 +1,4 @@
-package swkoo.SWEA.src.D1.d2019;
+package SWEA.src.D1.d2019;
 import java.util.Scanner;
 
 class Solution {

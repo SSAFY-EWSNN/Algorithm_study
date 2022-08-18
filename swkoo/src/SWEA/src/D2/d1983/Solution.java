@@ -1,4 +1,4 @@
-package D2.d1983;
+package SWEA.src.D2.d1983;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
