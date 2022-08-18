@@ -1,5 +1,5 @@
 package com.baekjoon.Backtracking;
-
+// nQueen 문제
 import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.IOException;
