@@ -5,7 +5,22 @@ Git 관리는 <a href="https://github.com/mccreate"><b>👨‍💻민우</b></a>
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FSSAFY-EWSNN&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 <br/><br/>
 
+# 🗒 Update 로그
+<details>
+<summary>
+22/08/19
+</summary>
+
+- 동서남쀾 그룹 대문 Readme.md 수정
+- Algorithm_study 리포 대문 Readme.md 수정
+- git push --force 보호 정책 실행. (git push --force가 불가능합니다.)
+</details>
+
 # 📆 일정표 공유
+<details>
+<summary> 08월 </summary>
+
+<br>
 <details> 
 <summary>
 1주차 - 완전탐색 ✓
@@ -54,6 +69,7 @@ Git 관리는 <a href="https://github.com/mccreate"><b>👨‍💻민우</b></a>
 </summary>
 </details>
 
+</details>
 
 # 📃 Git 폴더 규칙
 문서는 항상 다음과 같이 관리합시다. <br>
