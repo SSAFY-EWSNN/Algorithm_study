@@ -5,32 +5,92 @@ Git 관리는 <a href="https://github.com/mccreate"><b>👨‍💻민우</b></a>
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FSSAFY-EWSNN&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 <br/><br/>
 
-# 📆 일정표 공유
-- [x] 1주차 - 완전탐색<br>
-- Programmers 고득점 Kit - 최소 직사각형 (86491) <br>
-- SWEA - 조교의 성적 매기기 (1983) <br><br>
-- [ ] 2주차 - 완전탐색<br>
-- [ ] 3주차 - 백트래킹<br>
-- [ ] 4주차 - 백트래킹<br>
-- [ ] 5주차 - Git 정리 및 📃보고서 작성<br> 
+# 🗒 Update 로그
+<details>
+<summary>
+22/08/19
+</summary>
 
-<b>완전탐색 :</b> <b><a href="https://www.acmicpc.net/step/22">`백준`</a></b>, <b><a href="https://school.programmers.co.kr/learn/courses/30/parts/12230">`프로그래머스`</a></b> <br>
-<b>백트래킹 :</b> <b><a href="https://www.acmicpc.net/step/34">`백준`</a></b>, <b><a href="https://school.programmers.co.kr/learn/courses/30/parts/12230">`프로그래머스`</a></b>는 동일
+- 동서남쀾 그룹 대문 Readme.md 수정
+- Algorithm_study 리포 대문 Readme.md 수정
+- git push --force 보호 정책 실행. (git push --force가 불가능합니다.)
+</details>
+
+# 📆 일정표 공유
+<details>
+<summary> 08월 </summary>
+
+<br>
+<details> 
+<summary>
+1주차 - 완전탐색 ✓
+</summary>
+
+- Programmers 고득점 Kit - 최소 직사각형 (86491) <br>
+
+- SWEA - 조교의 성적 매기기 (1983)
+
+</details>
+
+<details>
+<summary>
+2주차 - 완전탐색, 백트래킹 ✓
+</summary>
+<br>
+
+- BOJ - 근손실 (18429)
+
+</details>
+<details>
+<summary>
+3주차 - 백트래킹, BFS/DFS(1) ✓
+</summary>
+
+- BOJ - 암호 만들기 (1759)
+- BOJ - 로또 (6603)
+- BOJ - 계란으로 계란치기 (16987) <br><br>
+
+- BOJ - 알고리즘 수업 - 깊이 우선탐색 1 (24479)
+- BOJ - 알고리즘 수업 - 너비 우선탐색 1 (24444)
+- BOJ - 숨바꼭질 (1697) 
+- BOJ - 물통 (2251) 
+- BOJ - 토마토 (7659)
+
+</details>
+
+<details>
+<summary>
+4주차 - BFS/DFS(2), 역량테스트 A형 대비문제 🗓
+</summary>
+</details>
+<details>
+<summary>
+5주차 - Git 정리 및 📃보고서 작성<br> 
+</summary>
+</details>
+
+</details>
 
 # 📃 Git 폴더 규칙
 문서는 항상 다음과 같이 관리합시다. <br>
 <b>1. Workspace는 자유롭게 설정하되, Git에는 `각자 이름` 폴더로 묶어서 올립시다.</b> <br><br>
-<b>2. 📁패키지명은 아래와 같이 통일합시다.</b><br>
-백준 : `com.baekjoon.주제`<br>
-프로그래머스 : `com.programmers.주제`
+~~<b>2. 📁패키지명은 아래와 같이 통일합시다.</b><br>~~
+~~백준 : `com.baekjoon.주제`<br>~~
+~~프로그래머스 : `com.programmers.주제`~~ <br><br>
+<b>2. 📁패키지명은 자유자제로 합시다. </b><br>
 ```
 Workspace : C:\Algorithm_study
 Folder Name : [👨각자 이름] - [📁src] - [📁com.baekjoon.문제주제] - [📃Baekjoon_1234.java]...
+
+↓ 자유 패키지로 변경.
+
+Workspace : C:\Algorithm_study
+Folder Name : [👨각자 이름] - [📁자유 패키지] - [📃Main.java]...
 ```
 <b>3. 항상 src 폴더만 Git에 업로드합시다.</b> ex) git add src로 해주세요 😊<br>
 ⚠️ <b>[📁bin]</b> 업로드 금지!     
 ~~git pull 안하신거 티나요👀..~~ <br><br>
-4. <b>branch는 그대로 `master`에서 진행합니다.</b><br>
+4. <b>branch는 그대로 <a href='https://github.com/SSAFY-EWSNN/Algorithm_study'>`master`</a> 에서 진행합니다.</b><br>
 # 🛫 Git 사용법 간단정리
 
 ⚡ <b>본인 내용</b>만 수정하셔야 합니다!! (충돌나요..)⚡<br />
@@ -123,4 +183,11 @@ git push -u origin master
 
 1. Github Token 문제
 - 해결법 찾아보고 올리겠습니다. 😥
-2. 사고치면 알려주세여... 🥶
+
+2. git add *(혹은 or)를 해도 스테이징이 안 되는 경우.<br>
+→ git add -A 입력해주세요.
+```
+git add -A
+```
+
+3. 사고치면 알려주세여... 🥶
