@@ -1,6 +1,6 @@
 package com.baekjoon.dfs_bfs;
 //BJ 1261 알고스팟
-
+//다시 풀어보기
 import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -72,7 +72,6 @@ class PointCnt implements Comparable<PointCnt> {
 	int x, y, cnt;
 
 	public PointCnt(int x, int y, int cnt) {
-		super();
 		this.x = x;
 		this.y = y;
 		this.cnt = cnt;
