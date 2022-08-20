@@ -1,5 +1,6 @@
 package com.baekjoon.dfs_bfs;
 //baekjoon 16234 인구이동
+//다시 풀어보기
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -12,8 +13,11 @@ import java.util.Queue;
 public class Baekjoon_16234 {
 	static int N, L, R;
 	static int arr[][];
-	static Queue<Point> q = new LinkedList<>();
+	static int dx[] = {0, 1, 0, -1};
+	static int dy[] = {1, 0, -1, 0};
+	static ArrayList<Point> people;
 	static boolean visited[][];
+	static int answer;
 	public static void main(String[] args) throws IOException {
 		System.setIn(new FileInputStream("input.txt"));
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -25,7 +29,6 @@ public class Baekjoon_16234 {
 		R = Integer.parseInt(split[2]); //R명이상
 		 
 		arr = new int[N][N];
-		visited = new boolean[N][N];
 		for(int i=0; i<N; i++) {
 			split = br.readLine().split(" ");
 			for(int j=0; j<N; j++) {
@@ -33,39 +36,78 @@ public class Baekjoon_16234 {
 			}
 		}
 		
-		bfs();
-	}
-	private static void bfs() {
-		q.add(new Point(0,0));
-		visited[0][0] = true;
-		
-		int dx[] = {0, -1, 0, 1};
-		int dy[] = {1, 0, -1, 0};
-		
-		//int sum = 0;
-		int cnt = 0;
-		while(!q.isEmpty()) {
-			int sum = 0;
-			Point cur = q.poll();
-			sum += arr[cur.x][cur.y];
-			cnt++;
-			
-			for(int d=0; d<4; d++) {
-				int testX = cur.x + dx[d];
-				int testY = cur.y + dy[d];
-				
-				if(testX<0 || testX>=N || testY<0 || testY>=N) continue;
-				
-				int diff = Math.abs(arr[cur.x][cur.y] - arr[testX][testY]);
-				if(!visited[testX][testY] && L<=diff && diff>=L) {
-					q.add(new Point(testX, testY));
-					visited[testX][testY] = true;
+		int result = 0;
+		while(true) {
+			boolean flag = false;
+			visited = new boolean[N][N]; //방문 초기화
+			for(int i=0; i<N; i++) {
+				for(int j=0; j<N; j++) {
+					if(!visited[i][j]) {
+						int sum = bfs(i,j);
+						if(people.size() > 1) { //인구수를 2군데 이상 바꿀 수 있다면
+							change(sum);
+							flag = true;
+						}
+					}
 				}
 			}
+			if(!flag) {
+				System.out.println(result);
+				return;
+			} else {
+				result++;
+			}
+		}
+	}
 
+	private static int bfs(int x, int y) {
+		Queue<Point> q = new LinkedList<>();
+		people = new ArrayList<>(); //인구수 바꿀 수 있는 좌표 저장
+		
+		q.add(new Point(x,y));
+		visited[x][y] = true;
+	
+		int sum = arr[x][y];
+		people.add(new Point(x,y));
+		while(!q.isEmpty()) {
+			Point cur = q.poll();
+			
+			for(int d=0; d<4; d++) {
+				int nextX = cur.x + dx[d];
+				int nextY = cur.y + dy[d];
+				
+				if(nextX < 0 || nextX >= N || nextY < 0 || nextY >= N) continue;
+				
+				int dist = Math.abs(arr[nextX][nextY]-arr[cur.x][cur.y]);
+				if(!visited[nextX][nextY] && dist >= L && dist <= R) {
+					q.add(new Point(nextX, nextY));
+					visited[nextX][nextY] = true;
+					people.add(new Point(nextX, nextY));
+					sum += arr[nextX][nextY];
+				}
+			}
+		}
+		return sum;
+	}
+	
+	//인구수 이동하기
+	private static void change(int sum) {
+		int avg = sum / people.size();
+		for(int i=0; i<people.size(); i++) {
+			arr[people.get(i).x][people.get(i).y] = avg;
+		}
+	}
+	
+	//좌표값 클래스
+	static class Point {
+		int x, y;
+
+		public Point(int x, int y) {
+			super();
+			this.x = x;
+			this.y = y;
 		}
 		
 	}
-	
 	
 }
