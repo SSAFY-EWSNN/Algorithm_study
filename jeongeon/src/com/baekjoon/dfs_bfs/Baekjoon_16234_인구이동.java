@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class Baekjoon_16234 {
+public class Baekjoon_16234_인구이동 {
 	static int N, L, R;
 	static int arr[][];
 	static int dx[] = {0, 1, 0, -1};

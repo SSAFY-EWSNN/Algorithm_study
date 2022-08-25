@@ -6,7 +6,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Baekjoon_2251 {
+public class Baekjoon_2251_물통 {
 	
 	public static void main(String[] args) throws IOException {
 		System.setIn(new FileInputStream("input.txt"));

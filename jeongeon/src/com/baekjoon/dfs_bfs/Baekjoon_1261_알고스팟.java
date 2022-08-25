@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.PriorityQueue;
 
-public class Baekjoon_1261 {
+public class Baekjoon_1261_알고스팟 {
 	static int M, N; //가로, 세로
 	static int maze[][]; //미로 배열
 	static boolean visited[][]; //방문 확인

@@ -8,7 +8,7 @@ import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class Baekjoon_1697 {
+public class Baekjoon_1697_숨바꼭질 {
 	static int N, M;
 	static int[] cnt;
 	static Queue<Integer> q = new LinkedList<>();

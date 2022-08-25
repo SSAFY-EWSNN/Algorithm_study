@@ -13,7 +13,7 @@ import javax.swing.plaf.synth.SynthSplitPaneUI;
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 1*/
-public class Baekjoon_7576 {
+public class Baekjoon_7576_토마토 {
 	static int M, N;
 	static int tomato[][];
 	static Queue<Point> q = new LinkedList<>();
